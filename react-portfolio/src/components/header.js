@@ -4,10 +4,13 @@ import NavBar from "../components/navbar";
 const Header = (props) => {
     return (
         <header> 
-            <div>
-
-            </div>
-            <NavBar /> 
+            <div className="header-block">
+            <div className="dev-name">Valbona Bajrami </div>
+             </div>
+            <NavBar 
+                 currentPage={props.currentPage}
+                 handlePageChange={props.handlePageChange}
+            /> 
         </header>
     )
 }
