@@ -1,21 +1,21 @@
 import React from "react";
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from './components/header'
+import About from './components/about'
+// import Portfolio from './components/portfolio'
+// import Resume from './components/resume'
+import Contact from './components/contact'
+import Footer from './components/footer'
+
+
 
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Navbar />
+        <Header  />
         <About />
-        <Resume />
-        <Portfolio />
+        {/* <Resume /> */}
+        {/* <Portfolio /> */}
         <Contact />
         <Footer />
       </div>
