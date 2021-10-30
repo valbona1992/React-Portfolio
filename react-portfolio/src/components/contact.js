@@ -47,6 +47,7 @@ const Contact = () => {
             aria-describedby="emailHelp"
             onChange={handleInputChange}
             placeholder="Enter Your Full Name"
+            required
           />
         </div>
         <div className="container mb-3">
@@ -59,6 +60,7 @@ const Contact = () => {
             id="exampleInputEmail1"
             onChange={handleInputChange}
             placeholder="Enter Your Email Here"
+            required
           />
         </div>
         <div className="container mb-3">
@@ -72,6 +74,7 @@ const Contact = () => {
             rows="3"
             onChange={handleInputChange}
             placeholder="Enter Your Message Here"
+            required
           />
         </div>
         <div className="container mb-3">
@@ -84,6 +87,11 @@ const Contact = () => {
           </button>
           </div>
      </form> 
+     {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
      </>
       )
 }
