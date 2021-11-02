@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1", 
+      "name": "wandir", 
+      "description": "An app for travelers embarking on a trip that helps them connect and meet with other people around the world.", 
+      "image": "wandir",
+      "pageUrl": "https://fullstacknomads.herokuapp.com/", 
+      "githubUrl": "https://github.com/FullstackNomads/wandir"
+    },
+    {
+        "id": "2", 
+        "name": "Plane With Plants", 
+        "description": "A project that helps users who are looking for local plant-base (vegan/vegetarian) restaurants, recipes to create at home, or just browsing restaurants in a new city.", 
+        "image": "planewithplants",
+        "pageUrl": "https://404veggiebusters.github.io/Project1", 
+        "githubUrl": "https://github.com/404VeggieBusters/Project1"
+      },
+      {
+        "id": "3", 
+        "name": "README Generator", 
+        "description": " A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.", 
+        "image": "planewithplants",
+        "pageUrl": "", 
+        "githubUrl": "https://github.com/valbona1992/GoodREADMEgenerator"
+      },
+      {
+        "id": "4", 
+        "name": "Weather Dashboard", 
+        "description": " A weather app that allows users to see current weather conditions in a city, as well as a 5-day forecast.", 
+        "image": "planewithplants",
+        "pageUrl": "https://valbona1992.github.io/homework06-weather-dashboard", 
+        "githubUrl": "https://github.com/valbona1992/homework06-weather-dashboard"
+      },
+      {
+        "id": "5", 
+        "name": "E-Commerce Backend", 
+        "description": " Back end for an e-commerce site by modifying starter code and configuring a working Express.js API to use Sequelize to interact with a MySQL database.", 
+        "image": "planewithplants",
+        "pageUrl": "", 
+        "githubUrl": "https://github.com/valbona1992/ORM-Ecommerce-Backend"
+      },
+      {
+        "id": "6", 
+        "name": "Work Day Scheduler", 
+        "description": "A work day scheduler that provides time blocks for event scheduling.", 
+        "image": "planewithplants",
+        "pageUrl": "https://valbona1992.github.io/homework05-workdayscheduler", 
+        "githubUrl": "https://github.com/valbona1992/homework05-workdayscheduler"
+      }
+  ]

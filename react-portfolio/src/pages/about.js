@@ -17,17 +17,11 @@ const About = () => {
                         gap with healthcare professionals not being able to provide services and education because of the
                         lack of web designs for the medical field. I plan to use the knowledge I have learned as a
                         full-stack developer to help bridge the gap in medicine and tech. Outside of my professional life, my hobbies including hiking, camping, reading, and traveling the world.</h5> 
-                <h5 className="text-muted mt-2"> Take a look at my resume to learn more about the prior experiences I had that has led me here
-                    today.</h5>
             </div>
         </div>
     </main>
     
-    <footer className="footer mt-auto py-3">
-        <div className="container text-center mt-4">
-          <span className="text-muted">© 2021 Valbona Bajrami</span>
-        </div>
-    </footer>
+   
     </>
     )
 }

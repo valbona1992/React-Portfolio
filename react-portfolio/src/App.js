@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/header'
-import About from './components/about'
-// import Portfolio from './components/portfolio'
+import About from './pages/about'
+import Portfolio from './pages/portfolio'
 // import Resume from './components/resume'
-import Contact from './components/contact'
+import Contact from './pages/contact'
 import Footer from './components/footer'
 
 
@@ -19,9 +19,9 @@ function App() {
         <Route exact path={"/about"}>
           <About />
         </Route>
-        {/* <Route exact path="/Portfolio">
+       <Route exact path="/Portfolio">
           <Portfolio />
-        </Route> */}
+        </Route> 
         <Route exact path="/contact">
           <Contact />
         </Route>

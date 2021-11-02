@@ -3,7 +3,7 @@ const NavBar = ({currentPage, handlePageChange}) => {
 
     return (
         <nav> 
-            <ul className= "nav nav-tabs">
+            <ul className= "nav nav-tabs border-0">
                 {navLinks.map((link) => (
                     <li className="nav-item" key={link}>
                         <a href= {"" + link.toLowerCase()}
