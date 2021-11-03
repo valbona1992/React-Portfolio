@@ -36,13 +36,13 @@ const Contact = () => {
         <>
         <h1 class="display-4 text-center text-primary mb-5">Contact Me</h1>
         <form>
-        <div className="container col-md-8 mb-3">
+        <div className="container col-md-7 mb-3">
           <label for="exampleInputName1" class="text-danger">Name:</label>
           <input
             name="name"
             value={name}
             type="text"
-            class="form-control"
+            class="form-control bg-secondary"
             id="exampleInputName1"
             aria-describedby="emailHelp"
             onChange={handleInputChange}
@@ -50,26 +50,26 @@ const Contact = () => {
             required
           />
         </div>
-        <div className="container col-md-8 mb-3">
+        <div className="container col-md-7 mb-3">
           <label for="exampleInputEmail1" class="text-danger">Email:</label>
           <input
             name="email"
             value={email}
             type="text"
-            class="form-control"
+            class="form-control bg-secondary"
             id="exampleInputEmail1"
             onChange={handleInputChange}
             placeholder="Enter Your Email Here"
             required
           />
         </div>
-        <div className="container col-md-8 mb-3">
+        <div className="container col-md-7 mb-3">
           <label for="exampleFormControlTextarea1" class="text-danger">Message:</label>
           <input
             name="message"
             value={message}
             type="text"
-            class="form-control"
+            class="form-control bg-secondary"
             id="exampleFormControlTextarea1"
             rows="3"
             onChange={handleInputChange}
@@ -77,7 +77,7 @@ const Contact = () => {
             required
           />
         </div>
-        <div className="container text-center col-md-8 mb-3">
+        <div className="container text-center col-md-7 mb-3">
           <button
             type="submit"
             class="text-center btn btn-primary"

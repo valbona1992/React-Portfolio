@@ -23,7 +23,7 @@ const Portfolio = () => {
             </div>
         </div>
         ))};
-    )
+
     </>
     )
   }
