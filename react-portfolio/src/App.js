@@ -16,7 +16,7 @@ function App() {
     <Header/>
     <Router>
       <Switch>
-        <Route exact path={"/about"}>
+        <Route exact path={["/about", "/"]}>
           <About />
         </Route>
        <Route exact path="/Portfolio">
