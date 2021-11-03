@@ -34,10 +34,10 @@ const Contact = () => {
 
       return (
         <>
-        <h1>Contact Me</h1>
+        <h1 class="display-4 text-center text-primary mb-5">Contact Me</h1>
         <form>
-        <div className="container mb-3">
-          <label for="exampleInputName1">Name:</label>
+        <div className="container col-md-8 mb-3">
+          <label for="exampleInputName1" class="text-danger">Name:</label>
           <input
             name="name"
             value={name}
@@ -50,8 +50,8 @@ const Contact = () => {
             required
           />
         </div>
-        <div className="container mb-3">
-          <label for="exampleInputEmail1">Email:</label>
+        <div className="container col-md-8 mb-3">
+          <label for="exampleInputEmail1" class="text-danger">Email:</label>
           <input
             name="email"
             value={email}
@@ -63,8 +63,8 @@ const Contact = () => {
             required
           />
         </div>
-        <div className="container mb-3">
-          <label for="exampleFormControlTextarea1">Message:</label>
+        <div className="container col-md-8 mb-3">
+          <label for="exampleFormControlTextarea1" class="text-danger">Message:</label>
           <input
             name="message"
             value={message}
@@ -77,7 +77,7 @@ const Contact = () => {
             required
           />
         </div>
-        <div className="container mb-3">
+        <div className="container text-center col-md-8 mb-3">
           <button
             type="submit"
             class="text-center btn btn-primary"

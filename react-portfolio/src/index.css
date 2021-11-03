@@ -12,6 +12,11 @@ body {
   color: #0f529b !important;
 }
 
+.fa-github-alt,
+.fa-linkedin {
+  font-size: 50px;
+}
+
 .far {
   padding: 0px !important;
 }
