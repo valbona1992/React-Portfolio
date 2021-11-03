@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Valbonas-Portfolio/static/css/main.59b7bd33.chunk.css",
+    "main.js": "/Valbonas-Portfolio/static/js/main.59c248c8.chunk.js",
+    "main.js.map": "/Valbonas-Portfolio/static/js/main.59c248c8.chunk.js.map",
+    "runtime-main.js": "/Valbonas-Portfolio/static/js/runtime-main.e7cb0d85.js",
+    "runtime-main.js.map": "/Valbonas-Portfolio/static/js/runtime-main.e7cb0d85.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/Valbonas-Portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.bb0c6624.chunk.js": "/Valbonas-Portfolio/static/js/2.bb0c6624.chunk.js",
+    "static/js/2.bb0c6624.chunk.js.map": "/Valbonas-Portfolio/static/js/2.bb0c6624.chunk.js.map",
+    "static/js/3.bd25434d.chunk.js": "/Valbonas-Portfolio/static/js/3.bd25434d.chunk.js",
+    "static/js/3.bd25434d.chunk.js.map": "/Valbonas-Portfolio/static/js/3.bd25434d.chunk.js.map",
+    "index.html": "/Valbonas-Portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/Valbonas-Portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.59b7bd33.chunk.css.map": "/Valbonas-Portfolio/static/css/main.59b7bd33.chunk.css.map",
+    "static/js/2.bb0c6624.chunk.js.LICENSE.txt": "/Valbonas-Portfolio/static/js/2.bb0c6624.chunk.js.LICENSE.txt",
+    "static/media/ValbonaBajrami.75298735.jpg": "/Valbonas-Portfolio/static/media/ValbonaBajrami.75298735.jpg",
+    "static/media/Valbona_Bajrami_Resume.56c2f4d4.pdf": "/Valbonas-Portfolio/static/media/Valbona_Bajrami_Resume.56c2f4d4.pdf",
+    "static/media/ecommerce.png": "/Valbonas-Portfolio/static/media/ecommerce.ebe7d547.png",
+    "static/media/goodreadme.png": "/Valbonas-Portfolio/static/media/goodreadme.32db8ed6.png",
+    "static/media/planewithplants.png": "/Valbonas-Portfolio/static/media/planewithplants.f42acb7f.png",
+    "static/media/screenshot1.png": "/Valbonas-Portfolio/static/media/screenshot1.e4e008dc.png",
+    "static/media/screenshot2.png": "/Valbonas-Portfolio/static/media/screenshot2.7e4055ac.png",
+    "static/media/wandir.png": "/Valbonas-Portfolio/static/media/wandir.12cbea43.png",
+    "static/media/weather.png": "/Valbonas-Portfolio/static/media/weather.a69cd0fe.png",
+    "static/media/workdayscheduler.png": "/Valbonas-Portfolio/static/media/workdayscheduler.54f20c74.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7cb0d85.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.bb0c6624.chunk.js",
+    "static/css/main.59b7bd33.chunk.css",
+    "static/js/main.59c248c8.chunk.js"
+  ]
+}
