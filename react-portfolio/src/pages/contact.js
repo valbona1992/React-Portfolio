@@ -32,17 +32,18 @@ const Contact = () => {
         }
       };
 
+      // oh lolol I thought ur home but it was online nolool
       return (
         <>
-        <h1 class="display-4 text-center text-primary mb-5">Contact Me</h1>
+        <h1 className="display-4 text-center text-primary mb-5">Contact Me</h1>
         <form>
         <div className="container col-md-7 mb-3">
-          <label for="exampleInputName1" class="text-danger">Name:</label>
+          <label for="exampleInputName1" className="text-danger">Name:</label>
           <input
             name="name"
             value={name}
             type="text"
-            class="form-control bg-secondary"
+            className="form-control bg-secondary"
             id="exampleInputName1"
             aria-describedby="emailHelp"
             onChange={handleInputChange}
@@ -51,12 +52,12 @@ const Contact = () => {
           />
         </div>
         <div className="container col-md-7 mb-3">
-          <label for="exampleInputEmail1" class="text-danger">Email:</label>
+          <label for="exampleInputEmail1" className="text-danger">Email:</label>
           <input
             name="email"
             value={email}
             type="text"
-            class="form-control bg-secondary"
+            className="form-control bg-secondary"
             id="exampleInputEmail1"
             onChange={handleInputChange}
             placeholder="Enter Your Email Here"
@@ -64,12 +65,12 @@ const Contact = () => {
           />
         </div>
         <div className="container col-md-7 mb-3">
-          <label for="exampleFormControlTextarea1" class="text-danger">Message:</label>
+          <label for="exampleFormControlTextarea1" className="text-danger">Message:</label>
           <input
             name="message"
             value={message}
             type="text"
-            class="form-control bg-secondary"
+            className="form-control bg-secondary"
             id="exampleFormControlTextarea1"
             rows="3"
             onChange={handleInputChange}
@@ -80,7 +81,7 @@ const Contact = () => {
         <div className="container text-center col-md-7 mb-3">
           <button
             type="submit"
-            class="text-center btn btn-primary"
+            className="text-center btn btn-primary"
             onClick={handleFormSubmit}
           >
             Submit

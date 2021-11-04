@@ -10,7 +10,7 @@ const NavBar = ({currentPage, handlePageChange}) => {
                         onClick={() => {
                             handlePageChange(link);
                         }}
-                        className={currentPage === link ? "nav-link navActive" : "nav-link text-primary"}>
+                        className={currentPage === link ? "nav-link text-primary navActive" : "nav-link text-primary"}>
                         {link}
                         </a>
                     </li>

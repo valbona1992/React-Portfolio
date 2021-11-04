@@ -4,9 +4,9 @@ const Portfolio = () => {
 
     return (
       <>
-        <div class=" projects">
-            <h1 class="display-4 text-primary text-center">  Projects </h1>
-            <h5 class="text-info text-center"> Check out the projects I have worked on.</h5>
+        <div className=" projects">
+            <h1 className="display-4 text-primary text-center">  Projects </h1>
+            <h5 className="text-info text-center"> Check out the projects I have worked on.</h5>
         </div>
        
         {projects.map((project) => (
