@@ -19,10 +19,10 @@ function App() {
         <Route exact path={["/React-Portfolio/about", "/React-Portfolio/"]}>
           <About />
         </Route>
-       <Route exact path="/React-Portfolio/portfolio">
+       <Route exact path="/portfolio">
           <Portfolio />
         </Route> 
-        <Route exact path="/React-Portfolio/contact">
+        <Route exact path="/contact">
           <Contact />
         </Route>
          <Route exact path="/React-Portfolio/Resume">
