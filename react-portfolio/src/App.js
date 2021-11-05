@@ -1,4 +1,3 @@
-import { useState } from "react";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/header'
@@ -17,16 +16,16 @@ function App() {
     <Header/>
     <Router>
       <Switch>
-        <Route exact path={["/React-Portfolio/about", "/React-Portfolio/"]}>
+        <Route exact path={["/", "/about"]}>
           <About />
         </Route>
-       <Route exact path="/React-Portfolio/portfolio">
+       <Route path="/portfolio">
           <Portfolio />
         </Route> 
-        <Route exact path="/React-Portfolio/contact">
+        <Route path="/contact">
           <Contact />
         </Route>
-         <Route exact path="/React-Portfolio/Resume">
+         <Route path="/Resume">
           <Resume/>
         </Route> 
       </Switch>
