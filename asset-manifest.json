@@ -1,35 +1,33 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.59b7bd33.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.74d629e7.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.74d629e7.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.96e60304.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.96e60304.js.map",
+    "main.js": "/React-Portfolio/static/js/main.05b12e42.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.05b12e42.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.af3e5353.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.af3e5353.js.map",
     "static/css/2.0a9ec390.chunk.css": "/React-Portfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.ccc7a2d4.chunk.js": "/React-Portfolio/static/js/2.ccc7a2d4.chunk.js",
-    "static/js/2.ccc7a2d4.chunk.js.map": "/React-Portfolio/static/js/2.ccc7a2d4.chunk.js.map",
-    "static/js/3.bd25434d.chunk.js": "/React-Portfolio/static/js/3.bd25434d.chunk.js",
-    "static/js/3.bd25434d.chunk.js.map": "/React-Portfolio/static/js/3.bd25434d.chunk.js.map",
+    "static/js/2.85c0e976.chunk.js": "/React-Portfolio/static/js/2.85c0e976.chunk.js",
+    "static/js/2.85c0e976.chunk.js.map": "/React-Portfolio/static/js/2.85c0e976.chunk.js.map",
+    "static/js/3.3baa7b67.chunk.js": "/React-Portfolio/static/js/3.3baa7b67.chunk.js",
+    "static/js/3.3baa7b67.chunk.js.map": "/React-Portfolio/static/js/3.3baa7b67.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/React-Portfolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.59b7bd33.chunk.css.map": "/React-Portfolio/static/css/main.59b7bd33.chunk.css.map",
-    "static/js/2.ccc7a2d4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.ccc7a2d4.chunk.js.LICENSE.txt",
+    "static/js/2.85c0e976.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.85c0e976.chunk.js.LICENSE.txt",
     "static/media/ValbonaBajrami.75298735.jpg": "/React-Portfolio/static/media/ValbonaBajrami.75298735.jpg",
     "static/media/Valbona_Bajrami_Resume.56c2f4d4.pdf": "/React-Portfolio/static/media/Valbona_Bajrami_Resume.56c2f4d4.pdf",
     "static/media/ecommerce.png": "/React-Portfolio/static/media/ecommerce.ebe7d547.png",
     "static/media/goodreadme.png": "/React-Portfolio/static/media/goodreadme.32db8ed6.png",
     "static/media/planewithplants.png": "/React-Portfolio/static/media/planewithplants.f42acb7f.png",
-    "static/media/screenshot1.png": "/React-Portfolio/static/media/screenshot1.e4e008dc.png",
-    "static/media/screenshot2.png": "/React-Portfolio/static/media/screenshot2.7e4055ac.png",
     "static/media/wandir.png": "/React-Portfolio/static/media/wandir.12cbea43.png",
     "static/media/weather.png": "/React-Portfolio/static/media/weather.a69cd0fe.png",
     "static/media/workdayscheduler.png": "/React-Portfolio/static/media/workdayscheduler.54f20c74.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.96e60304.js",
+    "static/js/runtime-main.af3e5353.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.ccc7a2d4.chunk.js",
+    "static/js/2.85c0e976.chunk.js",
     "static/css/main.59b7bd33.chunk.css",
-    "static/js/main.74d629e7.chunk.js"
+    "static/js/main.05b12e42.chunk.js"
   ]
 }
