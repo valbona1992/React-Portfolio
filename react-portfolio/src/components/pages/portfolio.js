@@ -1,4 +1,4 @@
-import projects from '../projects.json';
+import projects from '../../projects.json';
 
 const Portfolio = () => {
 
@@ -12,7 +12,7 @@ const Portfolio = () => {
         {projects.map((project) => (
         <div className="row m-5">
             <div className="col-12 col-md-5 about">
-            <img key={project.id} className="homeimg img-fluid" alt="screenshot of project" src={require('../assets/images/' + project.image + '.png').default}/>
+            <img key={project.id} className="homeimg img-fluid" alt="screenshot of project" src={require('../../assets/images/' + project.image + '.png').default}/>
             </div>
             <div className="col-12 col-md-6 ml-5 ">
                 <h1 className="text-danger"> {project.name}</h1>

@@ -1,4 +1,4 @@
-import resume from "../assets/resume/Valbona_Bajrami_Resume.pdf"
+import resume from "../../assets/resume/Valbona_Bajrami_Resume.pdf"
 
 const Resume = () => {
     return (

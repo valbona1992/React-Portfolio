@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -32,7 +32,7 @@ const Contact = () => {
         }
       };
 
-      // oh lolol I thought ur home but it was online nolool
+    
       return (
         <>
         <h1 className="display-4 text-center text-primary mb-5">Contact Me</h1>

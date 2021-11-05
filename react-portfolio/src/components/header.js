@@ -16,13 +16,13 @@ function Header({ currentPage, handlePageChange })  {
     </button>
     <div className="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
     <nav> 
-            <ul className="nav nav-tabs">
+            <ul className="nav nav-tabs border-0">
       <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link text-primary navActive' : 'nav-link text-primary'} >
-          Home
+          About
         </a>
       </li>
       <li className="nav-item">
@@ -32,7 +32,7 @@ function Header({ currentPage, handlePageChange })  {
         
           className={currentPage === 'Portfolio' ? 'nav-link text-primary navActive' : 'nav-link text-primary'}
         >
-          About
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
@@ -42,7 +42,7 @@ function Header({ currentPage, handlePageChange })  {
         
           className={currentPage === 'Resume' ? 'nav-link text-primary navActive' : 'nav-link text-primary'}
         >
-          Blog
+          Resume
         </a>
       </li>
       <li className="nav-item">

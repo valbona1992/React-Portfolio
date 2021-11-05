@@ -1,5 +1,5 @@
-import profilePhoto from '../assets/images/ValbonaBajrami.jpg'
-import resume from "../assets/resume/Valbona_Bajrami_Resume.pdf"
+import profilePhoto from '../../assets/images/ValbonaBajrami.jpg'
+import resume from "../../assets/resume/Valbona_Bajrami_Resume.pdf"
 
 const About = () => {
     return (
