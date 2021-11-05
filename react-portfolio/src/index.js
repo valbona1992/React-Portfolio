@@ -4,13 +4,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css' 
 import './index.css';
-import { BrowserRouter, HashRouter } from 'react-router-dom';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-    <App />
-    </HashRouter>
+  <React.StrictMode> 
+    <App /> 
   </React.StrictMode>,
   document.getElementById('root')
 );

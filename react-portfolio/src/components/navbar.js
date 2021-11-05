@@ -17,6 +17,8 @@ const NavBar = ({currentPage, handlePageChange}) => {
                  ))}
             </ul>
         </nav>
+
+        
     )
 }
 
