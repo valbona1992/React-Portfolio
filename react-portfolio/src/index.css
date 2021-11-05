@@ -75,6 +75,10 @@ p a {
   font-style: italic;
 }
 
+img {
+  opacity: 80%;
+}
+
 .img-fluid {
   max-width: 100%;
 }
