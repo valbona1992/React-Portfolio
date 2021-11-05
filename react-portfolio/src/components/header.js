@@ -6,7 +6,7 @@ import logo from '../assets/images/logo.png'
 
 
 const Header = () => {
-    const [currentPage, handlePageChange] = useState("About");
+    const [currentPage, handlePageChange] = useState("about");
 
     return (
         <>

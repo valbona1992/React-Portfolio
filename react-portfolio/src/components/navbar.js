@@ -1,12 +1,12 @@
 const NavBar = ({currentPage, handlePageChange}) => {
-    const navLinks = ["About", "Portfolio", "Resume", "Contact"];
+    const navLinks = ["about", "portfolio", "resume", "contact"];
 
     return (
         <nav> 
             <ul className= "nav nav-tabs border-0">
                 {navLinks.map((link) => (
                     <li className="nav-item " key={link}>
-                        <a href= {"" + link.toLowerCase()}
+                        <a href= {"#" + link}
                         onClick={() => {
                             handlePageChange(link);
                         }}

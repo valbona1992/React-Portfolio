@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/header'
 import About from './pages/about'
 import Portfolio from './pages/portfolio'
@@ -16,16 +16,16 @@ function App() {
     <Header/>
     <Router>
       <Switch>
-        <Route exact path={["/", "/about"]}>
-          <About />
+        <Route exact path={["/React-Portfolio", "/React-Portfolio/about"]}>
+          <About/>
         </Route>
-       <Route path="/portfolio">
+       <Route path="/React-Portfolio/portfolio">
           <Portfolio />
         </Route> 
-        <Route path="/contact">
+        <Route path="/React-Portfolio/contact">
           <Contact />
         </Route>
-         <Route path="/Resume">
+         <Route path="/React-Portfolio/resume">
           <Resume/>
         </Route> 
       </Switch>
