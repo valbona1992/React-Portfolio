@@ -1,12 +1,9 @@
-import { useState } from "react";
+
 import React from 'react';
-import NavBar from "../components/navbar";
 import logo from '../assets/images/logo.png'
 
 
-
-const Header = () => {
-    const [currentPage, handlePageChange] = useState("about");
+function Header({ currentPage, handlePageChange })  {
 
     return (
         <>
@@ -18,10 +15,50 @@ const Header = () => {
         <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
-        <NavBar
-            currentPage={currentPage}
-            handlePageChange={handlePageChange}
-            />
+    <nav> 
+            <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          className={currentPage === 'About' ? 'nav-link text-primary navActive' : 'nav-link text-primary'} >
+          Home
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+        
+          className={currentPage === 'Portfolio' ? 'nav-link text-primary navActive' : 'nav-link text-primary'}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+        
+          className={currentPage === 'Resume' ? 'nav-link text-primary navActive' : 'nav-link text-primary'}
+        >
+          Blog
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link text-primary navActive' : 'nav-link text-primary'}
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+        </nav>
+
+
+
     </div>
     </div>
  </nav>
