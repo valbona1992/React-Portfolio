@@ -75,9 +75,9 @@ p a {
   font-style: italic;
 }
 
-img {
-  opacity: 80%;
-}
+/* img {
+  opacity: 80% !important;
+} */
 
 .img-fluid {
   max-width: 100%;
