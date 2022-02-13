@@ -4,7 +4,7 @@
 
 ## Description
 
-A professional portfolio, created using React, that displays information about me, the projects I have done through the coding bootcamp course, as well as ways to contact me.
+A professional portfolio, created using React, that displays information about me, the projects I have done through the coding bootcamp course, as well as ways to contact me. To view my page, click [here](https://valbona1992.github.io/React-Portfolio/) for the deployed link.
 
 ## Table of Contents
 
@@ -16,7 +16,6 @@ A professional portfolio, created using React, that displays information about m
 
 ## Technologies
 
-- React-Bootstrap
 - React
 - HTML
 - JavaScript

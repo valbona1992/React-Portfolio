@@ -1,5 +1,6 @@
 import profilePhoto from '../../assets/images/ValbonaBajrami.jpg'
 import resume from "../../assets/resume/Valbona_Bajrami_Resume.pdf"
+import projects from "../pages/portfolio"
 
 const About = () => {
     return (
@@ -18,7 +19,7 @@ const About = () => {
                         gap with healthcare professionals not being able to provide services and education because of the
                         lack of web designs for the medical field. I plan to use the knowledge I have learned as a
                         full-stack developer to help bridge the gap in medicine and tech. Outside of my professional life, my hobbies including hiking, camping, reading, and traveling the world.</h5> 
-            <a href="../portfolio" className="btn btn-primary btn-md mt-3">Projects</a>
+            <a href={projects} className="btn btn-primary btn-md mt-3">Projects</a>
             <a href={resume} className="btn btn-primary btn-md mt-3" target="_blank" rel="noreferrer">Resume</a>
             </div>
 
