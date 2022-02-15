@@ -1,33 +1,37 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.eacbf452.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.2982846e.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.2982846e.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.8e31f1de.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.8e31f1de.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.c2e77b81.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.c2e77b81.js.map",
     "static/css/2.0a9ec390.chunk.css": "/React-Portfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6a1ad616.chunk.js": "/React-Portfolio/static/js/2.6a1ad616.chunk.js",
-    "static/js/2.6a1ad616.chunk.js.map": "/React-Portfolio/static/js/2.6a1ad616.chunk.js.map",
+    "static/js/2.75d3a78f.chunk.js": "/React-Portfolio/static/js/2.75d3a78f.chunk.js",
+    "static/js/2.75d3a78f.chunk.js.map": "/React-Portfolio/static/js/2.75d3a78f.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/React-Portfolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.eacbf452.chunk.css.map": "/React-Portfolio/static/css/main.eacbf452.chunk.css.map",
-    "static/js/2.6a1ad616.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.6a1ad616.chunk.js.LICENSE.txt",
+    "static/js/2.75d3a78f.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.75d3a78f.chunk.js.LICENSE.txt",
+    "static/media/EcoLivin.png": "/React-Portfolio/static/media/EcoLivin.eda5d62b.png",
+    "static/media/Valbona-Bajrami.afa7a9b2.pdf": "/React-Portfolio/static/media/Valbona-Bajrami.afa7a9b2.pdf",
     "static/media/ValbonaBajrami.75298735.jpg": "/React-Portfolio/static/media/ValbonaBajrami.75298735.jpg",
-    "static/media/Valbona_Bajrami_Resume.56c2f4d4.pdf": "/React-Portfolio/static/media/Valbona_Bajrami_Resume.56c2f4d4.pdf",
+    "static/media/ecolivin2.png": "/React-Portfolio/static/media/ecolivin2.d09ef849.png",
     "static/media/ecommerce.png": "/React-Portfolio/static/media/ecommerce.ebe7d547.png",
     "static/media/goodreadme.png": "/React-Portfolio/static/media/goodreadme.32db8ed6.png",
     "static/media/planewithplants.png": "/React-Portfolio/static/media/planewithplants.f42acb7f.png",
+    "static/media/planewithplants2.png": "/React-Portfolio/static/media/planewithplants2.31471f79.png",
     "static/media/screenshot1.png": "/React-Portfolio/static/media/screenshot1.e4e008dc.png",
     "static/media/screenshot2.png": "/React-Portfolio/static/media/screenshot2.7e4055ac.png",
-    "static/media/wandir.png": "/React-Portfolio/static/media/wandir.12cbea43.png",
+    "static/media/wandir.png": "/React-Portfolio/static/media/wandir.a67b0cc5.png",
+    "static/media/wandir2.png": "/React-Portfolio/static/media/wandir2.e7d43a2f.png",
     "static/media/weather.png": "/React-Portfolio/static/media/weather.a69cd0fe.png",
     "static/media/workdayscheduler.png": "/React-Portfolio/static/media/workdayscheduler.54f20c74.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c2e77b81.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6a1ad616.chunk.js",
+    "static/js/2.75d3a78f.chunk.js",
     "static/css/main.eacbf452.chunk.css",
-    "static/js/main.2982846e.chunk.js"
+    "static/js/main.8e31f1de.chunk.js"
   ]
 }
